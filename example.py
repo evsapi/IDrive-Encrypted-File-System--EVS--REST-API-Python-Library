@@ -1,12 +1,12 @@
 <%
 import sys
 sys.path.append("/var/www/html/working")
-import IDrive
+import IDriveSync
 from xml.dom.minidom import parseString
 import xml.dom.minidom as xdm
 
 #create an instance of the library
-myNewObj = IDrive.IDrive('<IDRIVE UID>', '<IDRIVE PWD>')
+myNewObj = IDriveSync.IDriveSync('<IDRIVESYNC UID>', '<IDRIVESYNC PWD>')
 
 #create the parameters dictionary
 inparams = {}
