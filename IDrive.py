@@ -1,13 +1,13 @@
 import urllib, urllib2
 from xml.dom.minidom import parseString
 import xml.dom.minidom as xdm
-class IDrive:
-        Name = "IDrive"
+class IDriveSync:
+        Name = "IDriveSync"
         def __init__(self, uid, pwd):
                 self.uid = uid
                 self.pwd = pwd
 
-                url = 'https://evs.idrive.com/evs/getServerAddress'
+                url = 'https://www.idrivesync.com/evs/getServerAddress'
                 print url
                 self.uid = uid
                 self.pwd = uid
